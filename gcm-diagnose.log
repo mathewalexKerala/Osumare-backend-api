@@ -1,0 +1,178 @@
+﻿Diagnose log at 2024-07-10T09:37:10Z
+
+AppPath: D:\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: D:\Git\mingw64\bin\
+Version: 2.4.1
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\mathe
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DELL
+GIT_TRACE2_PARENT_SID=fedf82b8-77e5-4251-86e1-11dfdc57f66f
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ProgramW6432=C:\Program Files
+OneDrive=C:\Users\mathe\OneDrive
+TMP=C:\Users\mathe\AppData\Local\Temp
+HOME=C:\Users\mathe
+PROCESSOR_REVISION=8c01
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+GIT_EXEC_PATH=D:/Git/mingw64/libexec/git-core
+TEMP=C:\Users\mathe\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\mathe\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+EFC_14732=1
+USERDOMAIN=DELL
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=D:/Git/mingw64/libexec/git-core;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\mathe\bin;D:\vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\mathe\.console-ninja\.bin;C:\Users\mathe\AppData\Local\Microsoft\WindowsApps;C:\Users\mathe\Downloads\mongosh-2.1.5-win32-x64\mongosh-2.1.5-win32-x64\bin;C:\Users\mathe\AppData\Roaming\npm;C:\Users\mathe\AppData\Local\Programs\Microsoft VS Code\bin
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+TMPDIR=C:\Users\mathe\AppData\Local\Temp
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=4
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXnwUbSQdJUasiqnna4r8BQQAAAACAAAAAAAQZgAAAAEAACAAAABn2RjEG/VB4AwmUais483YHFbGl1RG+xBY9SAriWNRIwAAAAAOgAAAAAIAACAAAAD1Vl6wow/okilXVZ+yvsRBUq+ThJCJjDhKjgmdMsSihGAAAACXtTLOZhJ1OZVDRfgKOKMnmBDE8srl07R9akYH74MYShwivFRoYCTPoxFle8jylsrZ8PY8xe0YNuKTAUVxy29tcSLJP4RoVr3TCv4JihE1kQLJdFruGi8aKgydNmib98tAAAAA55/lCerLBqkCDkeaNST6bFt0HVTupJ+1+ZNewud1xu1T+NxHdDop+9VGNKPX9ubcZf9deZEMcw7x9nJQjlsS5Q==
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+MSYS=disable_pcon
+ProgramFiles=C:\Program Files (x86)
+SystemRoot=C:\WINDOWS
+SESSIONNAME=Console
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\DELL
+USERPROFILE=C:\Users\mathe
+USERDOMAIN_ROAMINGPROFILE=DELL
+APPDATA=C:\Users\mathe\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=mathe
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\mathe\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\mathe\AppData\Local\Temp\aae240a9823a6cc438ec6029'... OK
+Reading from temporary file 'C:\Users\mathe\AppData\Local\Temp\aae240a9823a6cc438ec6029'... OK
+Deleting temporary file 'C:\Users\mathe\AppData\Local\Temp\aae240a9823a6cc438ec6029'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\mathe
+UserDataDirectoryPath: C:\Users\mathe\.gcm
+GetCurrentDirectory(): C:\Users\mathe\Desktop\Osumare-backend-api
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:58514/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.43.0.windows.1'
+Locating current repository... OK
+Git repository at 'C:/Users/mathe/Desktop/Osumare-backend-api/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:D:/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:D:/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:D:/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:D:/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:D:/Git/etc/gitconfig	filter.lfs.required=true
+file:D:/Git/etc/gitconfig	http.sslbackend=openssl
+file:D:/Git/etc/gitconfig	http.sslcainfo=D:/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:D:/Git/etc/gitconfig	core.autocrlf=true
+file:D:/Git/etc/gitconfig	core.fscache=true
+file:D:/Git/etc/gitconfig	core.symlinks=false
+file:D:/Git/etc/gitconfig	pull.rebase=false
+file:D:/Git/etc/gitconfig	credential.helper=manager
+file:D:/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:D:/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/mathe/.gitconfig	user.email=mathewalexmasai@gmail.com
+file:C:/Users/mathe/.gitconfig	user.name=Mathew Alex
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/mathewalexKerala/Osumare-backend-api.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\mathe\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\mathe\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
